@@ -65,7 +65,7 @@ public class MainActivity extends Activity implements RecognitionListener {
         applyImmersive();
 
         setupWebView();
-        LibVosk.setLogLevel(LogLevel.WARN);
+        LibVosk.setLogLevel(LogLevel.WARNINGS);
         loadOfflineModel();   // هم‌زمان با فیلم ابتدایی آماده می‌شود
         startIntro();
     }
